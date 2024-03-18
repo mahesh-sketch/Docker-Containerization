@@ -149,11 +149,11 @@ In this Docker Compose example:
 
 ### Docker Compose Commands
 ```bash
-docker-compose up
+docker compose up
 ```
 This command creates and starts all the services defined in the docker-compose.yml file. It also builds images if they don't exist and attaches to the container output, so you can see the logs.
 ```bash
-docker-compose down
+docker compose down
 ```
 This command stops and removes all containers defined in the docker-compose.yml file. It also removes any networks and volumes created by docker-compose up.
 
